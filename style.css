@@ -392,10 +392,12 @@ span {
     padding-top: 10px;
     margin-right: 10px;
     border-radius: 10px;
-    background-image: url(./images/im3.png);
+    background-image: url(./images/im1.png);
     background-size: cover;
     background-repeat: no-repeat;
     border: 1px solid #ffffff;
+    background-clip: border-box;
+    background-origin: content-box;
 }
 
 
