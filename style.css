@@ -147,8 +147,7 @@ section h4 {
 .search form {
     position: relative;
     width: 380px;
-    max-width: 100%;
-    
+    max-width: 200%;
 }
 
 .search form input:nth-child(1){
@@ -382,7 +381,13 @@ span {
     font-weight: 400px;
 }
 
-.left-side .stack p {
+.stack-container {
+    display: flex;
+    position: relative;
+    width: 50px;
+}
+
+.left-side .stack .con {
     height: 40px;
     width: 40px;
     background-color: #ffffff;
@@ -390,15 +395,34 @@ span {
     justify-content: center;
     align-items: center;
     padding-top: 10px;
-    margin-right: 10px;
     border-radius: 10px;
     background-image: url(./images/im1.png);
     background-size: cover;
     background-repeat: no-repeat;
     border: 1px solid #ffffff;
-    background-clip: border-box;
-    background-origin: content-box;
 }
+
+.left-side .stack .con:nth-child(1){
+    position: relative;
+    width: 50px;
+    height: 50px;
+    max-width: 100%;
+    
+}
+
+.left-side .stack .con:nth-child(2) {
+    position: absolute;
+    left: 10px;
+}
+.left-side .stack .con:nth-child(3) {
+    left: 30px;
+    position: absolute;
+}
+.left-side .stack .con:nth-child(4) {
+    left: 60px;
+    position: absolute;
+}
+
 
 
 
