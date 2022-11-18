@@ -3,13 +3,14 @@
     margin: 0px;
     box-sizing: border-box;
     font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    background-color: #f6f6f6;
 }
 
 .hero {
     width: 100%;
     min-height: 100vh;
     padding: 0px 50px;
-    background-color: lightgray;
+    background-color: #f6f6f6;
 }
 
 nav {
@@ -84,18 +85,34 @@ nav ul li a {
     margin: 20px;
 }
 
-.social a {
-    height: 30px;
+.social img {
+    height: 35px;
     width: 30px;
     box-shadow: 0px 0px 10px grey, 0px 0px 5px grey;
     background-color: white;
-    padding: 12px;
+    padding: 5px;
     border-radius: 50px;
     text-decoration: none;
     font-size: 15px;
     margin-right: 12px;
     font-weight: bold;
     color: black;
+}
+
+.social i {
+    height: 35px;
+        width: 30px;
+        box-shadow: 0px 0px 10px grey, 0px 0px 5px grey;
+        background-color: white;
+        justify-content: center;
+        align-items: center;
+        padding: 5px;
+        border-radius: 50px;
+        text-decoration: none;
+        font-size: 15px;
+        margin-right: 12px;
+        font-weight: bold;
+        color: black;
 }
 
 section {
@@ -159,6 +176,15 @@ section h4 {
     background-color: white;
 }
 
+.search form i {
+    position: absolute;
+        display: inline-block;
+        border: none;
+        font-size: 25px;
+        background-color: transparent;
+        top: 6px;
+        right: 10px;
+}
 .search form input:nth-child(3) {
     position: absolute;
     display: inline-block;
@@ -191,12 +217,16 @@ section h4 {
     padding-left: 10px;
 }
 
-.right-hand a {
+.right-h {
     text-decoration: none;
     font-weight: bold;
     font-size: 15px;
     padding: 15px;
     color: black;
+}
+
+.right-h i:nth-child(1) {
+    padding-right: 15px;
 }
 
 .card-wrapper {
@@ -207,7 +237,7 @@ section h4 {
 .card {
     justify-content: center;
     align-items: center;
-    background-color: white;
+    background-color: #ffffff;
     padding: 20px;
     margin-right: 10px;
     border-radius: 10px;
@@ -227,8 +257,8 @@ section h4 {
     padding: 10px;
 }
 
-.lock p:first-child {
-    padding-right: 10px;
+.lock :first-child {
+    padding-right: 15px;
     font-weight: bold;
     font-size: 18px;
     color: gray;
@@ -255,6 +285,7 @@ section h4 {
     font-size: 14px;
     font-weight: normal;
     color: lightgray;
+    background-color: #ffffff;
 }
 
 span {
@@ -267,6 +298,7 @@ span {
     justify-content: center;
     display: flex;
     padding: 10px;
+    background-color: #ffffff;
 }
 
 .it p:first-child {
@@ -326,7 +358,6 @@ span {
 }
 
 .small-btn .item {
-    background-color: whitesmoke;
     margin-right: 10px;
     border-radius: 5px;
     height: 30px;
@@ -337,4 +368,36 @@ span {
     font-weight: bold;
     color: black;
     text-align: center;
+    background-color: #ffffff;
+    border-radius: 5px;
 }
+
+.left-side {
+    display: flex;
+}
+
+.dis {
+    padding-right: 25px;
+    text-decoration: underline;
+    font-weight: 400px;
+}
+
+.left-side .stack p {
+    height: 40px;
+    width: 40px;
+    background-color: #ffffff;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    padding-top: 10px;
+    margin-right: 10px;
+    border-radius: 10px;
+    background-image: url(./images/im3.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    border: 1px solid #ffffff;
+}
+
+
+
+
